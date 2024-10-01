@@ -261,23 +261,19 @@ An instance of **mlflow.entities,Experiment** representing the new active experi
 Returns **mlflow.ActiveRun** object that acts as a context manager wrapping the run's state.
 
 
----
+```plaintext
 
-$$\text{set\_experiment()}$$
-
-$$\Uparrow$$
-
-$$\text{MLFLOW\_EXPERIMENT\_NAME environment variable}$$
-
-$$\Uparrow$$
-
-$$\text{MLFLOW\_EXPERIMENT\_ID environment variable}$$
-
-$$\Uparrow$$
-
-$$\text{Default experiment name}$$
-
----
+set_experiment()
+    /\
+    ||
+MLFLOW_EXPERIMENT_NAME environment variable
+    /\
+    ||
+MLFLOW_EXPERIMENT_ID environment variable
+    /\
+    ||
+Default experiment name
+````
 
 ***`active_run()`*** : Returns the run which is **currently active now**.
 
