@@ -262,6 +262,7 @@ Returns **mlflow.ActiveRun** object that acts as a context manager wrapping the 
 
 
 ---
+
 $$\text{set\_experiment()}$$
 
 $$\Uparrow$$
@@ -650,4 +651,5 @@ mlflow sagemaker build-and-push-container --container xgb --env-manager conda
 ```
 
 Thank You 
-Mohammad Wasiq
+
+**Mohammad Wasiq**
